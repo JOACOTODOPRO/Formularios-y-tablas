@@ -1,0 +1,84 @@
+/* Estilo general */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fcfcfc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+.encabezado {
+  text-align: center;
+  color: #2a2a72;
+  margin-bottom: 20px;
+  font-size: 26px;
+  border-bottom: 2px solid #2a2a72;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+thead {
+  background-color: #2a2a72;
+  color: white;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0f4f8;
+}
+
+tbody tr:hover {
+  background-color: #d1ecf1;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambiar color de primera columna */
+td:first-child {
+  color: #d63384;
+  font-weight: 600;
+}
+
+/* Imágenes en celdas */
+td img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Calificaciones destacadas */
+.excelente {
+  background-color: #c3e6cb;
+  color: #155724;
+  font-weight: bold;
+}
+
+.regular {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.baja {
+  background-color: #f8d7da;
+  color: #721c24;
+}
